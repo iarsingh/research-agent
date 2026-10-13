@@ -1,5 +1,12 @@
 # Research Agent
 
+## Overview
+
+A beginner agentic AI lab for a research agent that runs its tools in a fixed order: it searches local notes and then cites them. `POST /agent/run` takes a goal, and goals that ask it to publish or tweet are refused, so the agent never writes to the web. The service is a small Python HTTP app with pytest tests run in GitHub Actions.
+
+- **Built with:** Python, pytest, GitHub Actions
+- **Scope:** Local laptop lab working on local notes; it does not call a hosted model or apply production changes.
+
 <!-- project-guide:start -->
 ## Project guide
 
